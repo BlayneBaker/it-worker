@@ -331,8 +331,8 @@ WORKS / REFERENCES
   list-style-type: none;
   font-family: 'Domine', serif;
   margin-bottom: 30px;
-  border-top: solid 1px #2E6B62;
-  border-bottom: solid 1px #2E6B62;
+  border-top: solid 1px #FFF3EC;
+  border-bottom: solid 1px #FFF3EC;
   margin: 0 10px 20px;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -345,7 +345,7 @@ WORKS / REFERENCES
 
 #filter li.active,
 #filter li:hover {
-  background: #2E6B62;
+  background: #FFAD7E;
 }
 #filter li.active a,
 #filter li:hover a {
@@ -869,10 +869,11 @@ strong {
 }
 /* navbar */
 .navbar {
-  font-family: 'Neuton', serif;
+  font-family: 'Gentium Basic', serif;
   min-height: 80px;
   margin-bottom: 30px;
   border-bottom: 1px solid transparent;
+  font-size: 20px;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -1044,23 +1045,23 @@ strong {
   color: #777777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777777;
+  color: #1E0D1D;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333333;
+  color: #992005;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #555555;
+  color: #992005;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
-  color: #cccccc;
+  color: #1E0D1D;
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
@@ -1074,13 +1075,13 @@ strong {
   background-color: #4fbfa8;
 }
 .navbar-default .navbar-collapse {
-  border-color: #e6e6e6;
+  border-color: #1E0D1D;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   background-color: transparent;
-  color: #555555;
+  color: #1E0D1D;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -1181,8 +1182,8 @@ hr {
   border-radius: 0;
 }
 .btn-primary {
-  color: #4fbfa8;
-  background-color: #ffffff;
+  color: white;
+  background-color: #4FBFA8;
   border-color: #4fbfa8;
 }
 .btn-primary:hover,
@@ -1225,8 +1226,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
-  background: #4fbfa8;
-  color: #ffffff;
+  background: #D2CED1
+  opacity: .8;
 }
 .btn-lg {
   padding: 10px 16px;

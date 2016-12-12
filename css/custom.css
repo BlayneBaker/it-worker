@@ -8,14 +8,15 @@
   border-radius: 16px;
 }
 button {
-  background: #FFF;
+  background: #4FBFA8;
   color: #1E0D1D;
   padding: 16px;
   border-radius: 8px;
   opacity: .8;
+  font-family: 'Neuton', serif;
 }
 button:hover {
-  background: #4FBFA8;
+  background: #FFF;
 }
 .showcase .item .icon {
   height: 80px;
@@ -24,9 +25,7 @@ button:hover {
   border-radius: 40px;
   padding-top: 10px;
 }
-h2.title {
-  background: rgba(255,255,255,0.6);
-}
+
 .reference-item {
   min-height: 255px;
 }
@@ -90,6 +89,10 @@ h2.title {
   font-size: 18px;
 }
 
+#filter a{
+  color: #FFF3EC;
+}
+
 #contact{
   background-image: url(../pix/jellies.jpg);
   background-position: center;
@@ -97,6 +100,13 @@ h2.title {
   background-size: auto;
 }
 
+#contact h2{
+  background: #4FBFA8;
+  color: #1E0D1D;
+  padding: 16px;
+  border-radius: 8px;
+  opacity: .8;
+}
 #customers{
   background-color: #1E0D1D;
 }
