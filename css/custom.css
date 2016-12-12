@@ -1,0 +1,102 @@
+/* your styles go here */
+#intro .item {
+  background: url('../pix/jellyfish.jpg') center center no-repeat;
+
+}
+#intro .item h2{
+  background: rgba(0,0,0,.4);
+  border-radius: 16px;
+}
+button {
+  background: #FFF;
+  color: #1E0D1D;
+  padding: 16px;
+  border-radius: 8px;
+  opacity: .8;
+}
+button:hover {
+  background: #4FBFA8;
+}
+.showcase .item .icon {
+  height: 80px;
+  line-height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  padding-top: 10px;
+}
+h2.title {
+  background: rgba(255,255,255,0.6);
+}
+.reference-item {
+  min-height: 255px;
+}
+.navbar-default {
+  background-color: #FFF3EC;
+  border-bottom-color: #e6e6e6;
+}
+
+#about.section{
+  background-color: #1E0D1D;
+}
+#about.section h2{
+  font-family: 'Domine', serif;
+  color: white;
+}
+#about.section .paragraph{
+  font-family: 'Domine', serif;
+  color: #cccccc;
+  font-size: 17px;
+
+}
+
+#about.section .quote{
+  font-family: 'Domine', serif;
+  color: #FFAD7E;
+  font-size: 20px;
+}
+
+
+#about.section .teaser{
+  font-family: 'Domine', serif;
+  color: #cccccc;
+  font-size: 30px;
+}
+
+.progress-title{
+  color: #cccccc;
+  font-family: 'Domine', serif;
+  font-size: 18px;
+}
+
+#references.section{
+  background-color: #1E0D1D;
+}
+
+#references.section h2{
+  font-family: 'Domine', serif;
+  color: white;
+}
+
+#references .lead{
+  font-family:'Handlee', cursive;
+  color:#FFAD7E;
+}
+
+
+#detail-content{
+  color: #CCCCCC;
+  font-family:'Domine', serif;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+#contact{
+  background-image: url(../pix/jellies.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#customers{
+  background-color: #1E0D1D;
+}
