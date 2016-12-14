@@ -1,4 +1,7 @@
 /* your styles go here */
+
+/* Intro*/
+
 #intro .item {
   background: url('../pix/jellyfish.jpg') center center no-repeat;
 
@@ -7,32 +10,15 @@
   background: rgba(0,0,0,.4);
   border-radius: 16px;
 }
-button {
-  background: #4FBFA8;
-  color: #1E0D1D;
-  padding: 16px;
-  border-radius: 8px;
-  opacity: .8;
-  font-family: 'Neuton', serif;
-}
-button:hover {
-  background: #FFF;
-}
-.showcase .item .icon {
-  height: 80px;
-  line-height: 80px;
-  width: 80px;
-  border-radius: 40px;
-  padding-top: 10px;
-}
 
-.reference-item {
-  min-height: 255px;
-}
+/* Navigation*/
+
 .navbar-default {
   background-color: #FFF3EC;
   border-bottom-color: #e6e6e6;
 }
+
+/*About*/
 
 #about.section{
   background-color: #1E0D1D;
@@ -67,6 +53,34 @@ button:hover {
   font-size: 18px;
 }
 
+/*Showcase*/
+
+.showcase .item .icon {
+  height: 80px;
+  line-height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  padding-top: 10px;
+}
+
+button {
+  background: #4FBFA8;
+  color: #1E0D1D;
+  padding: 16px;
+  border-radius: 8px;
+  opacity: .8;
+  font-family: 'Handlee', cursive;
+}
+button:hover {
+  background: #FFF;
+}
+
+/*Work/Reference*/
+
+.reference-item {
+  min-height: 255px;
+}
+
 #references.section{
   background-color: #1E0D1D;
 }
@@ -93,6 +107,8 @@ button:hover {
   color: #FFF3EC;
 }
 
+/*Contact*/
+
 #contact{
   background-image: url(../pix/jellies.jpg);
   background-position: center;
@@ -106,7 +122,4 @@ button:hover {
   padding: 16px;
   border-radius: 8px;
   opacity: .8;
-}
-#customers{
-  background-color: #1E0D1D;
 }
